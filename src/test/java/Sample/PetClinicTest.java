@@ -25,7 +25,7 @@ public class PetClinicTest {
   public void testEasy() throws InterruptedException
   {   
 	  	//driver.get("http://192.168.3.102:8083/petclinic/");  
-	  	driver.get("http://localhost:8080/petclinic/");  
+	  	driver.get("http://localhost:8082/petclinic/");  
 	  	WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("html/body/div[1]/div[@class='container xd-container']/h2")));
 		 driver.manage().window().maximize();	
